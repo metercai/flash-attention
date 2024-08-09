@@ -26,8 +26,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pyver: ["3.8", "3.9", "3.10", "3.11", "3.12"]
-        cuda: ["12.3.2"]
+        pyver: ["3.10", "3.11", "3.12"]
+        cuda: ["12.3.2", "12.1.1"]
         torchver: ["2.2.2", "2.3.1", "2.4.0"]
     defaults:
       run:
